@@ -1,21 +1,21 @@
-password = input("请输入你的密码：")
-p = list(password)
-x = 0
-for i in p:
-    if i == " ":
-        x = 1
-if x == 1:
-    print("密码格式不对")  # 密码中不能包含空格
-elif password.isdigit() == True or password.isalpha() == True:  # 全为数字或字母
-    print("安全强度：弱")
-elif password.isalnum() == True:  # 只有数字和字母
-    print("安全强度：中")
-else:
-    print("安全强度：强")  # 密码包含数字、字母、特殊符号时安全强度为强
+# password = input("请输入你的密码：")
+ # p = list(password)
+# x = 0
+# for i in p:
+#     if i == " ":
+#         x = 1
+# if x == 1:
+#     print("密码格式不对")  # 密码中不能包含空格
+# elif password.isdigit() == True or password.isalpha() == True:  # 全为数字或字母
+#     print("安全强度：弱")
+# elif password.isalnum() == True:  # 只有数字和字母
+#     print("安全强度：中")
+# else:
+#     print("安全强度：强")  # 密码包含数字、字母、特殊符号时安全强度为强
 
 import string
 
-
+password = input("请输入你的密码：")
 def check(pwd):
     # 密码必须至少包含6个字符
     if not isinstance(pwd, str) or len(pwd) < 6:
