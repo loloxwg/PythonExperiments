@@ -1,2 +1,7 @@
 
-print("123.456\nhello\nwho do you think i am?\n'nice guy'\nOn,yes,i am a\nnice guy")
+print("123.456\n"
+      "hello\n"
+      "who do you think i am?\n"
+      "'nice guy'\n"
+      "On,yes,i am a\n"
+      "nice guy")

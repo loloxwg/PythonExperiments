@@ -1,4 +1,4 @@
-age = 27
+age = 18
 print("猜年龄")
 count = 0
 while count < 3:
