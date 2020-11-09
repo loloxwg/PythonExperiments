@@ -12,6 +12,11 @@ for index, value in enumerate(lst):
 
 print(lst)
 
+
+
+
+
+
 # import random
 #
 #

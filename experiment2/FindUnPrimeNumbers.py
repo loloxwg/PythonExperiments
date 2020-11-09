@@ -30,8 +30,8 @@ print("使用filter()函数统计列表中所有非素数")
 
 print(lst)
 
-print(sorted(set(lst)))
-
-print(set(lst))
+# print(sorted(set(lst)))
+#
+# print(set(lst))
 
 
