@@ -4,6 +4,12 @@ class Person():
         self.name = NAME
         self.id = ID
 
+    def modify_name(self, nam):
+        self.name = nam
+
+    def modify_id(self, idd):
+        self.id = idd
+
 
 class Student(Person):
 
@@ -12,6 +18,7 @@ class Student(Person):
         self.age = AGE
         self.cl = CLASS
         self.sc = GRADE
+    def showhhhhh(self):
         print(self.name, self.id, self.age, self.cl, self.sc)
 
 
@@ -20,12 +27,12 @@ class Teacher(Person):
         super().__init__(NAME, ID)
         self.zc = ZHICHEN
         self.bm = BUMEN
+    def showhhhh(self):
         print(self.name, self.id, self.zc, self.bm)
 
 
-
-stu1 = Student("zxw", 2020230034, 22,812001, 20)
+stu1 = Student("zxw", "2020230034","22", "812001", "20")
+stu1.showhhhhh()
 tea1 = Teacher("hy", 1001, "教授", "自动化")
-
-if __name__=='__main__':
-    print(1)
+tea1.modify_id(10000)
+tea1.showhhhh()
