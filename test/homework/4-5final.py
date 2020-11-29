@@ -1,19 +1,19 @@
+#4-5
 import numpy as np
-
 xlist = list(np.random.randint(1, 20, size=20))
-print(xlist)
+print("随机生成20个元素的列表\n",xlist)
 # a = xlist[1::2]  # ji
 # print(a)
 # b = sorted(xlist[::2], reverse=True)
 # print(b)
 ################### 列表偶数位降序排列No1 ##########
 xlist[::2] = sorted(xlist[::2], reverse=True)
-print(xlist)
-####################列表偶数位降序排列No2 ##########
+print("列表偶数位降序排列No1\n",xlist)
+################### 列表偶数位降序排列No2 ##########
 b = xlist[::2]
 b.sort(reverse=True)
 xlist[::2] = b
-print(xlist)
+print("列表偶数位降序排列No2\n",xlist)
 ################################################
 # sort()是list的内置函数，只会对原列表操作，无返回值
 # 切片具有浅拷贝性质，对列表进行切片得到的是一个新的列表
