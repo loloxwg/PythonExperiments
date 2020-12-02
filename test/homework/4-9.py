@@ -10,8 +10,8 @@ def fun(x):
         y = 0.5 * x - 2
     elif x >= 20:
         y = 0
-    print(y)
+    print("y = ", y)
 
 
-x = int(input())
+x = int(input("输入x"))
 fun(x)
