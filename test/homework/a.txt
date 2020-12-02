@@ -1,0 +1,14 @@
+The Derivative and Graphs
+We have seen how to differentiate functions from several different families:
+polynomials and poly-type functions, trig and inverse trig functions, exponentials and logs, and even hyperbolic functions and their inverses. Now we
+can use this knowledge to help us sketch graphs of functions in general. We’ll
+see how the derivative helps us understand the maxima and minima of functions, and how the second derivative helps us to understand the so-called
+concavity of functions. All in all, we have the following agenda:
+• global and local maxima and minima (that is, extrema) of functions,
+and how to find them using the derivative;
+• Rolle’s Theorem and the Mean Value Theorem, and their implications
+for sketching graphs;
+• the graphical interpretation of the second derivative; and
+• classifying points where the derivative vanishes.
+Then in the next chapter, we’ll look a comprehensive method of sketching
+graphs of functions using the above methods.
