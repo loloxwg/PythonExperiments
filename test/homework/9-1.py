@@ -7,5 +7,4 @@ with open(filename1, 'r',encoding="utf-8") as f1:
         # lines =f1.readlines()
         for line in f1.readlines():
             print(line.rstrip())
-            f2.write(line.upper())
-f1.close()
+            f2.write(line.swapcase())
