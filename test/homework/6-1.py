@@ -6,6 +6,9 @@ class Person():
         self.setSex(sex)
 
     def setName(self, name):
+        # if not inistance(name,str):
+        #     print("name must be string")
+        #     return
         self.__name = name
 
     def setAge(self, age):
@@ -15,7 +18,9 @@ class Person():
         self.__sex = sex
 
     def show(self):
-        print(self.__name, self.__age, self.__sex)
+        print(self.__name)
+        print(self.__age)
+        print(self.__sex)
 
 
 class Student(Person):
@@ -31,14 +36,14 @@ class Student(Person):
         print(self.__sdept)
 
 
+if __name__ == '__main__':
 
-a = Person("Tom", 100, "man")
-a.show()
+    a = Person("Tom", 100, "man")
 
-stu = Student("Jerry", 20, 'woman', "CS")
-stu.show()
 
-stu.setSdept("EE")
-stu.setAge(99)
-stu.setSex("men")
-stu.show()
+    stu = Student("Jerry", 20, 'woman', "CS")
+    stu.show()
+    print("\n")
+    stu.setSdept("EE")
+
+    stu.show()
