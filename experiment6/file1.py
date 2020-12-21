@@ -1,6 +1,7 @@
 import random as r
-import string as s
 import pickle
+
+
 
 first_name = ['赵', '钱', '孙', '李', '周', '吴', '郑', '王', '冯', '陈', '褚', '卫', '蒋','川']
 last_name = ['萱', '轩', '雨', '瑞', '军', '哈', '玲', '灵','卫滨','牧野','解放','建国']
@@ -48,17 +49,20 @@ def randPerson():
     email = randEmail()
     city = randAddr()
     info = "{},{},{}".format(name, email, city)
+
     return info
 
 
 if __name__ == '__main__':
-    filename = 'a.txt'
-    with open(filename, 'w') as fo:
-
+    filename = 'a.dat'
+    with open(filename, 'wb') as fo:
         for i in range(10):
-            print(randPerson())
-            fo.write(randPerson())
-            fo.write("\n")
+            pickle.dump(randPerson()+"\n",fo)
+
+    with open(filename,"rb")as fo:
+        for i in range(10):
+            a=pickle.load(fo)
+            print(a)
 
 # -*-coding:utf-8-*-
 # import os
