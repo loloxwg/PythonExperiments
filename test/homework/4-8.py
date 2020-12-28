@@ -11,7 +11,7 @@ def isprimer(value):
         else:
             if j == value - 1:
                 return value
-                continue
+            continue
 
 
 a = list(map("".join, itertools.permutations('1234')))

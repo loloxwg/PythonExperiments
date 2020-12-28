@@ -20,3 +20,26 @@ def judge_element(str):
     tup=(up_element,low_element,digit_element,other_element)
     print(tup)
 judge_element("wdxweWWWWhucuwuiy27177e3189&*((7")
+
+
+
+###################################
+
+def acc(w):
+    M = m = n = d = 0
+    for i in w:
+        if 'A' <= i <= 'Z':
+            M += 1
+        elif 'a' <= i <= 'z':
+            m += 1
+        elif '0' <= i <= '9':
+            n += 1
+        else:
+            d += 1
+
+    return (M, m, n, d)
+
+
+w = input('请输入：')
+print(w)
+print(acc(w))

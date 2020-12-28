@@ -8,3 +8,6 @@ a="aabbbccdddcceeefffg"
 a.split('gaf')
 print (a.split("a"))
 print(a.strip("gaf"))
+
+
+a=eval('1/4+2.75')

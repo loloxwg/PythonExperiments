@@ -1,4 +1,4 @@
-#闰年判断
+# 闰年判断
 try:
     a = int(input("请输入年份"))
 except ValueError:
@@ -8,3 +8,10 @@ else:
         print("不是闰年")
     else:
         print("是闰年")
+
+x = input('Please input an integer of 4 digits meaning the year:')
+x = eval(x)
+if x % 400 == 0 or (x % 4 == 0 and not x % 100 == 0):
+    print('Yes')
+else:
+    print('No')
