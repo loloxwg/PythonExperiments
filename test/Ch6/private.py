@@ -1,4 +1,4 @@
-class A(object):
+class A():
     def __init__(self, age=0, name='zzz'):
         self.__age = age
         self.__name = name
@@ -8,18 +8,18 @@ class A(object):
 
 
 class C():
-    def __index__(self, maj=2222222222222):
-        self.maj = maj
+    def __init__(self, id=2020):
+        self.id = id
 
-    def showmaj(self):
-        print(self.maj)
+    def show_id(self):
+        print(str(self.id))
 
 
 class B(A):
-    def __init__(self, age, name, sex):
+    def __init__(self, age, name):
         super(B, self).__init__(age, name)
-        self.sex = sex
-        self.maj = C()
+        self.sex = 20
+        self.maj = C()  # 实例用作了属性
 
     def show(self):
         super(B, self).show()
@@ -28,6 +28,6 @@ class B(A):
 
 a = A(0, 'zzz')
 a.show()
-b = B(2, 'zx3', 'man')
+b = B(2, 'zx3')
 b.show()
-b.maj.showmaj()
+b.maj.show_id()

@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b932790-4807-4351-b6e5-f133a1663a5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/Ch4/for.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Ch5/decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Ch5/quickSorted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Ch5/reverse1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Ch5/sum1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Ch6/classA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Ch6/private.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/homework/4-4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/homework/4-6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/homework/4-7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/homework/5-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/homework/5-7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Ch6/car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Ch2/enumerate.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Ch2/enumerate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/homework/4-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/homework/4-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/homework/4-5.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/homework/4-5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/homework/4-8.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/homework/4-8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/homework/4-8test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/homework/4-8test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/homework/5-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/homework/5-3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Ch6/private.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Ch6/private.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../Software/Anaconda/Lib/pickle.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="JupyterTrust" id="70334a1d-13ba-4c1b-8fb9-0d810b3e42bb" />
   <component name="ProjectId" id="1lQWBi5jXqoBRq5jieM31uxJ2uz" />
@@ -143,9 +130,6 @@
       <module name="pythonProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Ch6" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -239,6 +223,7 @@
       <workItem from="1608993033203" duration="3011000" />
       <workItem from="1609046585123" duration="15192000" />
       <workItem from="1609085688559" duration="824000" />
+      <workItem from="1609122234967" duration="1099000" />
     </task>
     <servers />
   </component>
@@ -261,8 +246,38 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ex_py$num2.coverage" NAME="num2 Coverage Results" MODIFIED="1606719467216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment7" />
+    <SUITE FILE_PATH="coverage/ex_py$6_1.coverage" NAME="6-1 Coverage Results" MODIFIED="1606986424844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/homework" />
+    <SUITE FILE_PATH="coverage/ex_py$FindUnPrimeNumbers.coverage" NAME="FindUnPrimeNumbers Coverage Results" MODIFIED="1606838716127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment2" />
+    <SUITE FILE_PATH="coverage/ex_py$7_2.coverage" NAME="7-2 Coverage Results" MODIFIED="1607392135852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/homework" />
+    <SUITE FILE_PATH="coverage/ex_py$graph.coverage" NAME="graph Coverage Results" MODIFIED="1608363641487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ex_py$test1__1_.coverage" NAME="test1 (1) Coverage Results" MODIFIED="1605510975668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/test2" />
+    <SUITE FILE_PATH="coverage/ex_py$ex.coverage" NAME="ex Coverage Results" MODIFIED="1608363480026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ex_py$9_1.coverage" NAME="9-1 Coverage Results" MODIFIED="1606984370214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/homework" />
     <SUITE FILE_PATH="coverage/demo_new_py$4_8.coverage" NAME="4-8 Coverage Results" MODIFIED="1609048490953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/homework" />
+    <SUITE FILE_PATH="coverage/ex_py$tianqi.coverage" NAME="tianqi Coverage Results" MODIFIED="1606720832618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/爬虫" />
+    <SUITE FILE_PATH="coverage/ex_py$lei.coverage" NAME="lei Coverage Results" MODIFIED="1606115224849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment5" />
+    <SUITE FILE_PATH="coverage/ex_py$num1.coverage" NAME="num1 Coverage Results" MODIFIED="1606718042593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment7" />
+    <SUITE FILE_PATH="coverage/ex_py$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1605102465252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ex_py$hhh.coverage" NAME="hhh Coverage Results" MODIFIED="1605512295844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/numpy" />
+    <SUITE FILE_PATH="coverage/ex_py$monilunpan.coverage" NAME="monilunpan Coverage Results" MODIFIED="1604966756488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment4" />
+    <SUITE FILE_PATH="coverage/ex_py$file.coverage" NAME="file Coverage Results" MODIFIED="1606111668050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment6" />
+    <SUITE FILE_PATH="coverage/ex_py$file1__1_.coverage" NAME="file1 (1) Coverage Results" MODIFIED="1606117135747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment6" />
     <SUITE FILE_PATH="coverage/demo_new_py$pytest_for_decorator_test.coverage" NAME="pytest for decorator.test Coverage Results" MODIFIED="1609052235418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Ch5" />
+    <SUITE FILE_PATH="coverage/ex_py$employee.coverage" NAME="employee Coverage Results" MODIFIED="1608206176541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment5" />
+    <SUITE FILE_PATH="coverage/ex_py$9_2.coverage" NAME="9-2 Coverage Results" MODIFIED="1606985519601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/homework" />
+    <SUITE FILE_PATH="coverage/ex_py$FilterFindPrimeNumbers.coverage" NAME="FilterFindPrimeNumbers Coverage Results" MODIFIED="1607908807826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment2" />
+    <SUITE FILE_PATH="coverage/ex_py$num9.coverage" NAME="num9 Coverage Results" MODIFIED="1606117157412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/demo_new_py$pytest_in_decorator_py.coverage" NAME="pytest in decorator.py Coverage Results" MODIFIED="1609052215787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Ch5" />
+    <SUITE FILE_PATH="coverage/ex_py$4_8__1_.coverage" NAME="4-8 (1) Coverage Results" MODIFIED="1606843112323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/homework" />
+    <SUITE FILE_PATH="coverage/ex_py$num1test.coverage" NAME="num1test Coverage Results" MODIFIED="1606718590615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment7" />
+    <SUITE FILE_PATH="coverage/ex_py$test.coverage" NAME="test Coverage Results" MODIFIED="1608171312103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/CTF" />
+    <SUITE FILE_PATH="coverage/ex_py$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1608818539604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ex_py$bug.coverage" NAME="bug Coverage Results" MODIFIED="1605514610533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/爬虫" />
+    <SUITE FILE_PATH="coverage/ex_py$file2.coverage" NAME="file2 Coverage Results" MODIFIED="1606113874159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment6" />
+    <SUITE FILE_PATH="coverage/ex_py$xueshenglaoshi.coverage" NAME="xueshenglaoshi Coverage Results" MODIFIED="1606115925501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment5" />
+    <SUITE FILE_PATH="coverage/ex_py$num3.coverage" NAME="num3 Coverage Results" MODIFIED="1606719898207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/experiment7" />
+    <SUITE FILE_PATH="coverage/ex_py$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1605102260452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/ex_py$4_9.coverage" NAME="4-9 Coverage Results" MODIFIED="1606835172893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/homework" />
   </component>
 </project>
