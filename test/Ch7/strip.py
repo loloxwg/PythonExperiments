@@ -35,3 +35,10 @@ print(path[:-4])
 print(path[-4:])
 # hello w
 # orld
+
+
+'''split()返回列表'''
+
+s="aaa,bbb,ccc,ddd"
+print(s.split(','))
+print(s.split('a'))
