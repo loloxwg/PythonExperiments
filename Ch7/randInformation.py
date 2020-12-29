@@ -50,6 +50,6 @@ def output(filename):
             print()
 
 if __name__ == '__main__':
-    filename='information.txt'
+    filename= 'information.txt'
     main(filename)
     output(filename)

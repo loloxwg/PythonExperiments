@@ -1,4 +1,3 @@
-import os
 import os.path
 
 for entry in os.scandir():
